@@ -1,0 +1,7 @@
+{
+	"builders": [{
+		"type": "amazon-chroot",
+		"source_ami":"ami-38de0e57",
+		"ami_name": "base image built with packer {{timestamp}}"
+	}]
+}
